@@ -10,7 +10,7 @@
 
 </div>
 
-![Link Tree Screenshot](/public/screenshot.png)
+![Link Tree Screenshot](/public/screenshot.webp)
 
 ### Prerequisites
 
