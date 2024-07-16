@@ -1,0 +1,80 @@
+{
+  "html": {
+    "lang": "en",
+    "title": "AlexjamesMx",
+    "description": "Follow me on all my socials",
+    "favicon": "/favicon.svg"
+  },
+  "background": {
+    "firstColor": "#6c43c9",
+    "secondColor": "#cc54db"
+  },
+  "header": {
+    "image": "/profile.webp",
+    "alt": "The owner of this website.",
+    "title": "AlexJamesMx",
+    "description": "Software Engineer",
+    "textColor": "white"
+  },
+  "socials": [
+    {
+      "network": "GitHub",
+      "username": "alexjamesmx",
+      "url": "https://github.com/alexjamesmx"
+    },
+    {
+      "network": "LinkedIn",
+      "username": "alexjamesmx",
+      "url": "https://www.linkedin.com/in/alexjamesmx"
+    },
+    {
+      "network": "Instagram",
+      "username": "alexjamesmx",
+      "url": "https://www.instagram.com/alexjamesmxx"
+    },
+    {
+      "network": "Mail",
+      "username": "alexjamesmx",
+      "url": "mailto:aledev.mx@gmail.com"
+    }
+  ],
+ 
+  "buttons": [
+    {
+      "network": "LinkedIn",
+      "url": "https://www.linkedin.com/in/alexjamesmx",
+      "title": "Let's connect on LinkedIn",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "GitHub",
+      "url": "https://github.com/alexjamesmx",
+      "title": "Follow me on GitHub",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Instagram",
+      "url": "https://www.instagram.com/alexjamesmxx",
+      "title": "Follow me on Instagram",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "Mail",
+      "url": "mailto:aledev.mx@gmail.com",
+      "title": "Contact me via email",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    }
+  ],
+  "footer": {
+    "copyright": "Made by Alex Santiago 👾",
+    "url": "https://alexjamesmx.dev"
+  }
+}
