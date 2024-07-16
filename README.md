@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 
-<h1 align="center">AstroLinkHub</h1>
+<h1 align="center">Free Link Tree</h1>
 
 <div align="center">
 
@@ -23,11 +23,11 @@ npm install -g pnpm
 
 1. Clone this repo to your computer:
    ```sh
-   git clone git@github.com:MarcosKlender/AstroLinkHub.git
+   git clone https://github.com/alexjamesmx/link-tree.git
    ```
 2. Install Astro dependencies:
    ```sh
-   cd AstroLinkHub
+   cd link-tree
    pnpm install
    ```
 3. Run the Astro dev server:
@@ -39,7 +39,7 @@ npm install -g pnpm
 
 ## JSON
 
-The best part of AstroLinkHub is that you can modify every aspect of the website very easily, you just have to edit the `index.json` file. This JSON contains the following sections:
+The best part of this link tree is that you can modify every aspect of the website very easily, you just have to edit the `index.json` file. This JSON contains the following sections:
 
 - **html** -> Edit language, title, description and favicon (replace it in `/public`).
 - **background** -> Use the same color twice for a solid color or use two colors for a gradient color.
@@ -71,15 +71,6 @@ Just edit the key `network` with any of the following values (case-sensitive):
 
 > [!NOTE]
 > If you need more open-source icons, visit: [Tabler Icons](https://tabler.io/icons)
-
-<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "feature".
-**Don't forget to give the project a star!** ⭐
 
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
 
