@@ -25,12 +25,12 @@ npm install -g pnpm
    ```sh
    git clone https://github.com/alexjamesmx/link-tree.git
    ```
-2. Install Astro dependencies:
+2. Change directory into the project & Install dependencies:
    ```sh
    cd link-tree
    pnpm install
    ```
-3. Run the Astro dev server:
+3. Run the dev server:
    ```sh
    pnpm dev
    ```
@@ -45,7 +45,7 @@ The best part of this link tree is that you can modify every aspect of the websi
 - **background** -> Use the same color twice for a solid color or use two colors for a gradient color.
 - **header** -> Edit your image (replace it in `/public`), name and description.
 - **socials** -> Add more icons with your socials URL (see the networks available).
-- **featured** -> Highlight links with a background image or color (same as buttons).
+- **featured** -> Highlight links with a background image or color (same as buttons). If you use featured, go to `/src/pages/index.astro` and uncomment the `Featured` section.
 - **buttons** -> Add more buttons with your socials URL (see the networks available).
 - **footer** -> Edit the copyright and URL of the developer (Made just for you 😎).
 
@@ -76,6 +76,6 @@ Just edit the key `network` with any of the following values (case-sensitive):
 
 ## License
 
-Distributed under the MIT License. `Open Source` is pretty self-descriptive.
+Distributed under the MIT License. `Open Source`.
 
 <p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
