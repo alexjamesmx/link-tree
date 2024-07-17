@@ -14,48 +14,43 @@
 
 ### Prerequisites
 
-- **Node.js** -> `v18.17.1` or `v20.3.0` or higher. (`v19` is not supported)
+- **Node.js** -> `v18.17.1` o `v20.3.0` o mayor. (`v19` no esta soportado)
 - **Visual Studio Code** -> with the [Official Astro Extension](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode).
-
-Personally I prefer using `pnpm` instead `npm` and to install it you can use:
-
-```sh
-npm install -g pnpm
-```
+- **Git** -> [Download & Install Git](https://git-scm.com/downloads).
 
 ### Installation
 
-1. Clone this repo to your computer:
+1. Clona el repositorio:
    ```sh
    git clone https://github.com/alexjamesmx/link-tree.git
    ```
-2. Change directory into the project & Install dependencies:
+2. Cambiate al directorio del proyecto:
    ```sh
    cd link-tree
-   pnpm install
+   npm install
    ```
-3. Run the dev server:
+3. Corre el servidor de desarrollo:
    ```sh
-   pnpm dev
+   npm dev
    ```
 
-<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+<p align="right"><a href="#readme-top">Volver al inicio ⬆️</a></p>
 
-## JSON
+## Edit your Link Tree
 
-The best part of this link tree is that you can modify every aspect of the website very easily, you just have to edit the `index.json` file. This JSON contains the following sections:
+La mejor parte de este árbol de enlaces es que puedes modificar todos los aspectos del sitio web muy fácilmente, sólo tienes que editar el archivo `index.json`. Este JSON contiene las siguientes secciones:
 
-- **html** -> Edit language, title, description and favicon (replace it in `/public`).
-- **background** -> Use the same color twice for a solid color or use two colors for a gradient color.
-- **header** -> Edit your image (replace it in `/public`), name and description.
-- **socials** -> Add more icons with your socials URL (see the networks available).
-- **featured** -> Highlight links with a background image or color (same as buttons). If you use featured, go to `/src/pages/index.astro` and uncomment the `Featured` section.
-- **buttons** -> Add more buttons with your socials URL (see the networks available).
-- **footer** -> Edit the copyright and URL of the developer (Made just for you 😎).
+- **html** -> Editar título, descripción y favicon (reemplácelo en `/src/layouts/Layout.astro`).
+- **fondo** -> Use el mismo color dos veces para un color sólido o use dos colores para un color degradado (use el formato de color hexadecimal).
+- **foto de perfil** -> Edita tu imagen (reemplaza 'profile.webp' en `/public`).
+- **socials** -> Agrega más íconos con la URL de tus redes sociales (consulta las redes disponibles).
+- **destacado** -> Resalte enlaces con una imagen de fondo o color (igual que los botones). Si usa botones destacados (botones más grandes y llamativos), vaya a `/src/pages/index.astro` y descomente la sección `Destacados`.
+- **botones** -> Agrega más botones con la URL de tus redes sociales (ver las redes disponibles).
+- **pie de página** -> Edite los derechos de autor y la URL del desarrollador (Hecho solo para usted 😎).
 
 ### Icons
 
-Just edit the key `network` with any of the following values (case-sensitive):
+Simplemente edite la clave `red` con cualquiera de los siguientes valores (distingue entre mayúsculas y minúsculas):
 
 - Discord
 - Facebook
@@ -76,10 +71,23 @@ Just edit the key `network` with any of the following values (case-sensitive):
 > [!NOTE]
 > If you need more open-source icons, visit: [Tabler Icons](https://tabler.io/icons)
 
-<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+<p align="right"><a href="#readme-top">Volver ⬆️</a></p>
+
+### Deploy
+
+1. En el directorio del proyecto, ejecute el siguiente comando:
+
+   ```sh
+   npm run build
+   ```
+
+2. Se creará la carpeta `dist` con los archivos del proyecto, esos archivos puede subirlos a cualquier servicio de hosting estático. Simplemente baje esos archivos dentro de `dist` y copielos a el hosting de su agrado.
+
+Aquí está la lista de los servicios de hosting gratuitos más populares:
+https://docs.astro.build/en/guides/deploy/
 
 ## License
 
-Distributed under the MIT License. `Open Source`.
+Distribuido bajo la licencia MIT. `Código abierto`.
 
-<p align="right"><a href="#readme-top">Back to top ⬆️</a></p>
+<p align="right"><a href="#readme-top">Volver ⬆️</a></p>
