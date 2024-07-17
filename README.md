@@ -19,17 +19,18 @@
 - **Git** -> [Descarga e instala Git](https://git-scm.com/downloads).
 
 ### Instalación
-
-1. Clona el repositorio:
+1. Abre una terminal y dirigete a la ruta o carpeta donde quieras tener el código.
+   
+2. Clona el repositorio:
    ```sh
    git clone https://github.com/alexjamesmx/link-tree.git
    ```
-2. Cambiate al directorio del proyecto:
+3. Cambiate al directorio del proyecto e instala las dependencias:
    ```sh
    cd link-tree
    npm install
    ```
-3. Corre el servidor de desarrollo:
+4. Corre el servidor de desarrollo:
    ```sh
    npm run dev
    ```
@@ -85,8 +86,6 @@ Simplemente edite la clave `network` con cualquiera de los siguientes valores (d
 
 Aquí está la lista de los servicios de hosting gratuitos más populares:
 https://docs.astro.build/en/guides/deploy/
-
-NOTA: Una vez desplegado, si tiene problemas agregue un archivo `.htaccess`. Copie todo este texto, peguelo en chatGPT y pida que le cree un archivo `.htaccess`
 
 ## Licencia
 
