@@ -44,7 +44,7 @@ La mejor parte de este árbol de enlaces es que puedes modificar todos los aspec
 - **fondo** -> Use el mismo color dos veces para un color sólido o use dos colores para un color degradado (use el formato de color hexadecimal).
 - **foto de perfil** -> Edita tu imagen (reemplaza 'profile.webp' en `/public`).
 - **socials** -> Agrega más íconos con la URL de tus redes sociales (consulta las redes disponibles).
-- **destacado** -> Resalte enlaces con una imagen de fondo o color (igual que los botones). Si usa botones destacados (botones más grandes y llamativos), vaya a `/src/pages/index.astro` y descomente la sección `Destacados`.
+- **destacado** -> Resalte enlaces con una imagen de fondo o color (igual que los botones).
 - **botones** -> Agrega más botones con la URL de tus redes sociales (ver las redes disponibles).
 - **pie de página** -> Edite los derechos de autor y la URL del desarrollador (Hecho solo para usted 😎).
 
