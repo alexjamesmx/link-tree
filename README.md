@@ -18,7 +18,7 @@
 - **Visual Studio Code** -> with the [Official Astro Extension](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode).
 - **Git** -> [Download & Install Git](https://git-scm.com/downloads).
 
-### Installation
+### Instalación
 
 1. Clona el repositorio:
    ```sh
@@ -31,12 +31,12 @@
    ```
 3. Corre el servidor de desarrollo:
    ```sh
-   npm dev
+   npm run dev
    ```
 
 <p align="right"><a href="#readme-top">Volver al inicio ⬆️</a></p>
 
-## Edit your Link Tree
+## Edita tu Link Tree
 
 La mejor parte de este árbol de enlaces es que puedes modificar todos los aspectos del sitio web muy fácilmente, sólo tienes que editar el archivo `index.json`. Este JSON contiene las siguientes secciones:
 
@@ -48,7 +48,7 @@ La mejor parte de este árbol de enlaces es que puedes modificar todos los aspec
 - **botones** -> Agrega más botones con la URL de tus redes sociales (ver las redes disponibles).
 - **pie de página** -> Edite los derechos de autor y la URL del desarrollador (Hecho solo para usted 😎).
 
-### Icons
+### IConos
 
 Simplemente edite la clave `network` con cualquiera de los siguientes valores (distingue entre mayúsculas y minúsculas):
 
@@ -73,7 +73,7 @@ Simplemente edite la clave `network` con cualquiera de los siguientes valores (d
 
 <p align="right"><a href="#readme-top">Volver ⬆️</a></p>
 
-### Deploy
+### Despliegue
 
 1. En el directorio del proyecto, ejecute el siguiente comando:
 
@@ -88,7 +88,7 @@ https://docs.astro.build/en/guides/deploy/
 
 NOTA: Una vez desplegado, si tiene problemas agregue un archivo `.htaccess`. Copie todo este texto, peguelo en chatGPT y pida que le cree un archivo `.htaccess`
 
-## License
+## Licencia
 
 Distribuido bajo la licencia MIT. `Código abierto`.
 
