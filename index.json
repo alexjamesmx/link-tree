@@ -1,19 +1,19 @@
 {
   "html": {
-    "lang": "en",
+    "lang": "es",
     "title": "AlexjamesMx",
-    "description": "Follow me on all my socials",
-    "favicon": "/favicon.svg"
+    "description": "Sígueme en todas mis redes sociales",
+    "favicon": "./favicon.svg"
   },
   "background": {
     "firstColor": "#6c43c9",
     "secondColor": "#cc54db"
   },
   "header": {
-    "image": "/profile.webp",
-    "alt": "The owner of this website.",
+    "image": "./profile.webp",
+    "alt": "El propietario de este sitio web.",
     "title": "AlexJamesMx",
-    "description": "Software Engineer • Mobile • Web • AI",
+    "description": "Ingeniero de Software • Móvil • Web • IA",
     "textColor": "white"
   },
   "socials": [
@@ -42,7 +42,7 @@
     {
       "network": "GitHub",
       "url": "https://github.com/alexjamesmx/linkt-tree",
-      "title": "Use this template and star it (:",
+      "title": "Usa esta plantilla y dale una estrella (:",
       "textColor": "#FFF",
       "backgroundImage": "https://githubuniverse.com/og-image-24.jpg",
       "backgroundColor": null,
@@ -53,7 +53,7 @@
     {
       "network": "LinkedIn",
       "url": "https://www.linkedin.com/in/alexjamesmx",
-      "title": "Let's connect on LinkedIn",
+      "title": "Conectemos en LinkedIn",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
@@ -61,7 +61,7 @@
     {
       "network": "GitHub",
       "url": "https://github.com/alexjamesmx",
-      "title": "Follow me on GitHub",
+      "title": "Sígueme en GitHub",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
@@ -69,7 +69,7 @@
     {
       "network": "Instagram",
       "url": "https://www.instagram.com/alexjamesmxx",
-      "title": "Follow me on Instagram",
+      "title": "Sígueme en Instagram",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
@@ -77,14 +77,14 @@
     {
       "network": "Mail",
       "url": "mailto:aledev.mx@gmail.com",
-      "title": "Contact me via email",
+      "title": "Contáctame por correo",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
     }
   ],
   "footer": {
-    "copyright": "Made by Alex Santiago 👾",
+    "copyright": "Hecho por Alex Santiago 👾",
     "url": "https://alexjamesmx.dev"
   }
 }
