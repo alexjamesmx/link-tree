@@ -83,7 +83,7 @@ Simplemente edite la clave `network` con cualquiera de los siguientes valores (d
    ```
 
 2. Se creará la carpeta `dist` con los archivos del proyecto, esos archivos puede subirlos a cualquier servicio de hosting estático. Simplemente baje esos archivos dentro de `dist` y copielos a el hosting de su agrado.
-   ![Link Tree Desplegar](/public/desplegar.png)
+![Link Tree Desplegar](/public/desplegar.png)
 
    
 
