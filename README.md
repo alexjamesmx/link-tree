@@ -14,7 +14,7 @@
 
 ### Requisitos
 
-- **Node.js** -> `v18.17.1` o `v20.3.0` o mayor. (`v19` no esta soportado) [Descarga aquí]("https://nodejs.org/en/download/prebuilt-installer/current")
+- **Node.js** -> `v18.17.1` o `v20.3.0` o mayor. (`v19` no esta soportado) [Descarga aqui]("https://nodejs.org/en/download/prebuilt-installer/current").
 - **Visual Studio Code** -> con la extensión [oficial de Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode).
 - **Git** -> [Descarga e instala Git](https://git-scm.com/downloads).
 
