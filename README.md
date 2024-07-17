@@ -12,7 +12,7 @@
 
 ![Link Tree Screenshot](/public/screenshot.webp)
 
-### Prerequisites
+### Requisitos
 
 - **Node.js** -> `v18.17.1` o `v20.3.0` o mayor. (`v19` no esta soportado)
 - **Visual Studio Code** -> with the [Official Astro Extension](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode).
@@ -50,7 +50,7 @@ La mejor parte de este árbol de enlaces es que puedes modificar todos los aspec
 
 ### Icons
 
-Simplemente edite la clave `red` con cualquiera de los siguientes valores (distingue entre mayúsculas y minúsculas):
+Simplemente edite la clave `network` con cualquiera de los siguientes valores (distingue entre mayúsculas y minúsculas):
 
 - Discord
 - Facebook
@@ -69,7 +69,7 @@ Simplemente edite la clave `red` con cualquiera de los siguientes valores (disti
 - YouTube
 
 > [!NOTE]
-> If you need more open-source icons, visit: [Tabler Icons](https://tabler.io/icons)
+> Si necesita más íconos, puede visitar este sitio: [Tabler Icons](https://tabler.io/icons)
 
 <p align="right"><a href="#readme-top">Volver ⬆️</a></p>
 
@@ -85,6 +85,8 @@ Simplemente edite la clave `red` con cualquiera de los siguientes valores (disti
 
 Aquí está la lista de los servicios de hosting gratuitos más populares:
 https://docs.astro.build/en/guides/deploy/
+
+NOTA: Una vez desplegado, si tiene problemas agregue un archivo `.htaccess`. Copie todo este texto, peguelo en chatGPT y pida que le cree un archivo `.htaccess`
 
 ## License
 
