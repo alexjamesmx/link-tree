@@ -48,7 +48,7 @@ La mejor parte de este árbol de enlaces es que puedes modificar todos los aspec
 - **botones** -> Agrega más botones con la URL de tus redes sociales (ver las redes disponibles).
 - **pie de página** -> Edite los derechos de autor y la URL del desarrollador (Hecho solo para usted 😎).
 
-### IConos
+### Iconos
 
 Simplemente edite la clave `network` con cualquiera de los siguientes valores (distingue entre mayúsculas y minúsculas):
 
