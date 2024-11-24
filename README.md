@@ -14,22 +14,23 @@
 
 ### Prerequisites
 
-- **Python** -> `v18.17.1` o `v20.3.0` o mayor. (`v19` no esta soportado)
-- **Visual Studio Code** -> with the [Official Astro Extension](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode).
-- **Git** -> [Download & Install Git](https://git-scm.com/downloads).
+- **Node.js** -> `v18.17.1` o `v20.3.0` o mayor. (`v19` no esta soportado) [Descarga aqui]("https://nodejs.org/en/download/prebuilt-installer/current").
+- **Visual Studio Code** -> con la extensión [oficial de Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode).
+- **Git** -> [Descarga e instala Git](https://git-scm.com/downloads).
 
 ### Instalación
 
-1. Clona el repositorio:
+1. Abre una terminal y dirigete a la ruta o carpeta donde quieras tener el código.
+2. Clona el repositorio:
    ```sh
    git clone https://github.com/alexjamesmx/link-tree.git
    ```
-2. Cambiate al directorio del proyecto:
+3. Cambiate al directorio del proyecto e instala las dependencias:
    ```sh
    cd link-tree
    npm install
    ```
-3. Corre el servidor de desarrollo:
+4. Corre el servidor de desarrollo:
    ```sh
    npm run dev
    ```
@@ -44,11 +45,11 @@ La mejor parte de este árbol de enlaces es que puedes modificar todos los aspec
 - **fondo** -> Use el mismo color dos veces para un color sólido o use dos colores para un color degradado (use el formato de color hexadecimal).
 - **foto de perfil** -> Edita tu imagen (reemplaza 'profile.webp' en `/public`).
 - **socials** -> Agrega más íconos con la URL de tus redes sociales (consulta las redes disponibles).
-- **destacado** -> Resalte enlaces con una imagen de fondo o color (igual que los botones). Si usa botones destacados (botones más grandes y llamativos), vaya a `/src/pages/index.astro` y descomente la sección `Destacados`.
+- **destacado** -> Resalte enlaces con una imagen de fondo o color (igual que los botones).
 - **botones** -> Agrega más botones con la URL de tus redes sociales (ver las redes disponibles).
 - **pie de página** -> Edite los derechos de autor y la URL del desarrollador (Hecho solo para usted 😎).
 
-### IConos
+### Iconos
 
 Simplemente edite la clave `network` con cualquiera de los siguientes valores (distingue entre mayúsculas y minúsculas):
 
@@ -83,10 +84,12 @@ Simplemente edite la clave `network` con cualquiera de los siguientes valores (d
 
 2. Se creará la carpeta `dist` con los archivos del proyecto, esos archivos puede subirlos a cualquier servicio de hosting estático. Simplemente baje esos archivos dentro de `dist` y copielos a el hosting de su agrado.
 
+![Link Tree Desplegar](/public/desplegar.png)
+
 Aquí está la lista de los servicios de hosting gratuitos más populares:
 https://docs.astro.build/en/guides/deploy/
 
-NOTA: Una vez desplegado, si tiene problemas agregue un archivo `.htaccess`. Copie todo este texto, peguelo en chatGPT y pida que le cree un archivo `.htaccess`
+También puede usar su propio servidor o algún alojamiento con el que ya cuente, por ejemplo hostinguer.
 
 ## Licencia
 
