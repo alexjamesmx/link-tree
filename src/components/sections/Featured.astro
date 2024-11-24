@@ -17,6 +17,7 @@ import Twitch from "@/icons/Twitch.astro";
 import WhatsApp from "@/icons/WhatsApp.astro";
 import X from "@/icons/X.astro";
 import YouTube from "@/icons/YouTube.astro";
+import Telegram from "@/icons/Telegram.astro";
 
 const SOCIAL_ICONS: Record<string, any> = {
   Discord,
@@ -34,6 +35,7 @@ const SOCIAL_ICONS: Record<string, any> = {
   WhatsApp,
   X,
   YouTube,
+  Telegram,
 };
 ---
 
@@ -63,7 +65,7 @@ const SOCIAL_ICONS: Record<string, any> = {
                 border-radius:${borderRadius};
                 background-image: url(${backgroundImage});
                 background-size: cover;
-                background-position: center;
+                background-position: top;
                 `}
             >
               <Icon />

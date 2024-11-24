@@ -2,8 +2,8 @@
   "html": {
     "lang": "es",
     "title": "AlexjamesMx",
-    "description": "Sígueme en todas mis redes sociales",
-    "favicon": "./favicon.svg"
+    "description": "Follow me on social media",
+    "favicon": "./profile-rounded-bgless.webp"
   },
   "background": {
     "firstColor": "#6c43c9",
@@ -11,9 +11,9 @@
   },
   "header": {
     "image": "./profile.webp",
-    "alt": "El propietario de este sitio web.",
+    "alt": "The owner of the website.",
     "title": "AlexJamesMx",
-    "description": "Ingeniero de Software • Móvil • Web • IA",
+    "description": "Software Engineer",
     "textColor": "white"
   },
   "socials": [
@@ -30,7 +30,13 @@
     {
       "network": "Instagram",
       "username": "alexjamesmx",
-      "url": "https://www.instagram.com/alexjamesmxx"
+      "url": "https://www.instagram.com/alexjamesmx"
+    },
+
+    {
+      "network": "YouTube",
+      "username": "alexjamesmx",
+      "url": "https://www.youtube.com/channel/UCJlUWE-Q9a_X2EZgpyazF5A"
     },
     {
       "network": "Mail",
@@ -40,20 +46,20 @@
   ],
   "featured": [
     {
-      "network": "GitHub",
-      "url": "https://github.com/alexjamesmx/linkt-tree",
-      "title": "Usa esta plantilla y dale una estrella (:",
+      "network": "Telegram",
+      "url": "https://t.me/superdescuentos_mx",
+      "title": "🤖 Telegram Bot Ofertas/Deals MX 🔥",
       "textColor": "#FFF",
-      "backgroundImage": "https://githubuniverse.com/og-image-24.jpg",
+      "backgroundImage": "image.png",
       "backgroundColor": null,
       "borderRadius": ".75rem"
     }
-  ], 
+  ],
   "buttons": [
     {
       "network": "LinkedIn",
       "url": "https://www.linkedin.com/in/alexjamesmx",
-      "title": "Conectemos en LinkedIn",
+      "title": "Let's connect on LinkedIn",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
@@ -61,15 +67,23 @@
     {
       "network": "GitHub",
       "url": "https://github.com/alexjamesmx",
-      "title": "Sígueme en GitHub",
+      "title": "Check out my GitHub",
+      "textColor": "#FFF",
+      "backgroundColor": "#000",
+      "borderRadius": ".75rem"
+    },
+    {
+      "network": "YouTube",
+      "url": "https://www.youtube.com/channel/UCJlUWE-Q9a_X2EZgpyazF5A",
+      "title": "Watch me on YouTube",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
     },
     {
       "network": "Instagram",
-      "url": "https://www.instagram.com/alexjamesmxx",
-      "title": "Sígueme en Instagram",
+      "url": "https://www.instagram.com/alexjamesmx",
+      "title": "Follow me on Instagram",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
@@ -77,14 +91,14 @@
     {
       "network": "Mail",
       "url": "mailto:aledev.mx@gmail.com",
-      "title": "Contáctame por correo",
+      "title": "Contact me via email",
       "textColor": "#FFF",
       "backgroundColor": "#000",
       "borderRadius": ".75rem"
     }
   ],
   "footer": {
-    "copyright": "Hecho por Alex Santiago 👾",
+    "copyright": "My website 👾",
     "url": "https://alexjamesmx.dev"
   }
 }

@@ -10,11 +10,11 @@
 
 </div>
 
-![Link Tree Screenshot](/public/screenshot.webp)
+![Link Tree Screenshot](/screenshot.png)
 
-### Requisitos
+### Prerequisites
 
-- **Node.js** -> `v18.17.1` o `v20.3.0` o mayor. (`v19` no esta soportado)
+- **Python** -> `v18.17.1` o `v20.3.0` o mayor. (`v19` no esta soportado)
 - **Visual Studio Code** -> with the [Official Astro Extension](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode).
 - **Git** -> [Download & Install Git](https://git-scm.com/downloads).
 
@@ -40,7 +40,7 @@
 
 La mejor parte de este árbol de enlaces es que puedes modificar todos los aspectos del sitio web muy fácilmente, sólo tienes que editar el archivo `index.json`. Este JSON contiene las siguientes secciones:
 
-- **html** -> Editar título, descripción y favicon (reemplácelo en `/src/layouts/Layout.astro`).
+- **html** -> Editar idioma, título, descripción y favicon (reemplácelo en `/src/layouts/Layout.astro`).
 - **fondo** -> Use el mismo color dos veces para un color sólido o use dos colores para un color degradado (use el formato de color hexadecimal).
 - **foto de perfil** -> Edita tu imagen (reemplaza 'profile.webp' en `/public`).
 - **socials** -> Agrega más íconos con la URL de tus redes sociales (consulta las redes disponibles).
